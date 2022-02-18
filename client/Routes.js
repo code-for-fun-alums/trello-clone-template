@@ -16,7 +16,7 @@ class Routes extends Component {
 
   render() {
     const { isLoggedIn } = this.props;
-
+    //TODO: when loged out need to redirect to landing page
     return (
       <div>
         {isLoggedIn ? (
