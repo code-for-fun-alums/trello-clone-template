@@ -1,6 +1,5 @@
 const Sequelize = require("sequelize");
 const db = require("../db");
-module.exports = Card;
 
 const Card = db.define("card", {
   title: {
@@ -15,3 +14,5 @@ const Card = db.define("card", {
     allowNull: true,
   },
 });
+
+module.exports = Card;

@@ -1,6 +1,5 @@
 const Sequelize = require("sequelize");
 const db = require("../db");
-module.exports = List;
 
 const List = db.define("list", {
   title: {
@@ -11,3 +10,4 @@ const List = db.define("list", {
     },
   },
 });
+module.exports = List;

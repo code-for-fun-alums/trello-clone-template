@@ -1,11 +1,11 @@
 const Sequelize = require("sequelize");
 const db = require("../db");
-module.exports = Board;
 
 const Board = db.define("board", {
   title: {
-    type: Sequelize.String,
+    type: Sequelize.STRING,
     allowNull: false,
     validate: { notEmpty: true },
   },
 });
+module.exports = Board;
