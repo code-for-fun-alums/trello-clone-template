@@ -1,6 +1,9 @@
-import React from 'react'
-import {connect} from 'react-redux'
-import {authenticate} from '../store'
+import React, { useState, useContext, useEffect } from 'react';
+import {connect} from 'react-redux';
+import {authenticate} from '../store';
+import Modal from 'react-modal';
+
+
 
 /**
  * COMPONENT
